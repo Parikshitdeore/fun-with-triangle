@@ -118,10 +118,10 @@ button {
 
 footer {
   text-align: center;
-  /* position: absolute;
+  position: absolute;
   bottom: 0;
   left: 0;
-  right: 0; */
+  right: 0;
 }
 
 footer p {
@@ -144,8 +144,9 @@ h2{
     padding: 2rem 1rem;
     border-top-left-radius: 0.7rem;
     border-top-right-radius: 0.7rem;
-    margin-top:11rem;
     font-size: 1rem;
+
+  
 }
 .footer.ui{
     padding-inline-start:0px;
