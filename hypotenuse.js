@@ -9,9 +9,10 @@ function sumOfSquare(a,b){
     console.log(b)
     sum=Number(a*a)+Number(b*b);
     rootofsum=Math.sqrt(sum)
+    rootofsum=parseFloat(rootofsum).toFixed(4)
     return rootofsum
 
     }
 function calcHypotenuse(){
-    output.innerText=sumOfSquare(sides[0].value,sides[1].value)
+    output.innerText=sumOfSquare(sides[0].value,sides[1].value)+" units"
 }

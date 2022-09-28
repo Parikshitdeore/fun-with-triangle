@@ -12,5 +12,5 @@ function heron(a,b,c){
 return parseFloat(area).toFixed(4)
     }
 function calcArea(){
-    output.innerText=heron((Number(sides[0].value)),Number(sides[1].value),Number(sides[2].value))
+    output.innerText=heron((Number(sides[0].value)),Number(sides[1].value),Number(sides[2].value)) +" units"
 }
