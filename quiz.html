@@ -4,42 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
     <title>quiz</title>
 </head>
 <body>
-    <header>
-        <nav>
-        </nav>
-    </header>
+  <header>
+    <nav>
+        <a href="/index.html">Is Triangle?</a>
+        <a class="active" href="/quiz.html">Quiz</a>
+        <a href="/hypotenuse.html">Hypotenuse</a>
+        <a href="/area.html">Area of Triangle</a>
+      </nav>
+</header>
     <main>
-        <h1>Quiz on Triangles</h1>
-        <h3>For each correct answer you will get 1 point</h3>
+      <br>
+        <h1 style="color:darkslategrey ;">Quiz on Triangles</h1>
+        <h4 style="color:grey ;">For each <span style="color: green">correct answer</span>  you will get 1 point</h4>
         <form class="quiz-form">
         <p>
-            What is the third angle for the triangle where angle1 = 45° and
+           1. What is the third angle for the triangle where angle1 = 45° and
             angle2 = 45°?
           </p>
           <label><input type="radio" name="question1" value="45°" />45°</label>
           <label><input type="radio" name="question1" value="90°" />90°</label>
           <label><input type="radio" name="question1" value="60°" />60°</label>
           <p>
-            A triangle can have...
+           2. A triangle can have...
           </p>
           <label><input type="radio" name="question2" value="one right angle" />one right angle</label>
           <label><input type="radio" name="question2" value="two right angles" />two right angles</label>
           
           <p>
-            Which of the following can form a right angled triangle?
+          3. Which of the following can form a right angled triangle?
           </p>
           <label><input type="radio" name="question3" value="Isosceles triangle" />Isosceles triangle</label>
           <label><input type="radio" name="question3" value="Equilateral triangle" />Equilateral triangle</label>
           <p>
-            If one angle of a triangle is obtuse, then which one of the
+           4. If one angle of a triangle is obtuse, then which one of the
             following is the possible measure of remaining angles?
           </p>
           <label><input type="radio" name="question4" value="85°" />85°</label>
           <label><input type="radio" name="question4" value="100°" />100°</label>
-          <p>If the largest angle in a triangle is 70°, what is the least
+          <p>5. If the largest angle in a triangle is 70°, what is the least
             possible value of the smallest angle of the triangle?</p>
         <label><input type="radio" name="question5" value="30°" />30°</label>
         <label><input type="radio" name="question5" value="10°" />10°</label>
@@ -47,6 +53,15 @@
     <button id="submit-button">Submit form</button>
     <h2 id="output"></h2>
     </main>
+
+    <footer class="footer footer.ui">
+      <div style="padding-bottom: 1rem ;">Connect with me</div>
+      <ul>
+          <li class="list-inline"><a class="link" href="https://twitter.com/ParikshitDeore"><strong>twitter</strong></a></li>
+          <li class="list-inline"><a class="link" href="https://www.linkedin.com/in/parikshit-deore-98249415a/?originalSubdomain=ine"><strong>Linkedin</strong></a></li>
+          <li class="list-inline"><a class="link" href="https://github.com/Parikshitdeore"><strong>github</strong></a></li>
+      </ul>
+  </footer>
     
 </body>
 <script src="quiz.js"></script>

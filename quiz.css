@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #3b82f6;
+}
+
+body {
+display: block;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+
+}
+p{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color:#64748b;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+a{
+    color: white;
+}
+/* Header */
+.active{
+    font-weight: 700;
+}
+header {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+header h1 {
+  font-family: "Megrim", cursive;
+  text-align: initial;
+}
+
+nav {
+  text-align: right;
+  color: white;
+}
+
+nav > a {
+  margin-right: 2rem;
+}
+
+/* Main */
+
+main {
+  margin: 0 0 7rem;
+}
+
+main h1 {
+  margin: 1rem;
+}
+
+/*  Input */
+
+label{
+    display: inline;
+    font-weight: 400;
+    padding: 0.5rem;
+   
+}
+
+input{
+  font-size: 14px;
+  outline: #ffff;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  display: inline;
+}
+
+button {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: 1rem auto;
+  display:block;
+}
+
+#output {
+  font-size: x-large;
+  margin: 2rem;
+  font-weight: 700;
+}
+.footer{
+    margin:auto;
+    text-align: center;
+    border-top: 0.7rem;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 1rem;
+    font-size: 1rem;
+}
+.footer.ui{
+    padding-inline-start:0px;
+}
+.a.footer{
+    display: inline;
+}
+.list-inline{
+    color: white;
+    display: inline;
+    padding: 1rem 1rem;
+}

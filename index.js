@@ -6,7 +6,7 @@ function calculateSum(){
     const sumOfAngles= calculateangles(Number(angles[1].value),Number(angles[1].value),Number(angles[2].value))
 
     if (sumOfAngles===180){
-        output.innerText="Your angles make a Triangle"
+        output.innerText="Your angles make a Triangle △ "
     }
     else{
         console.log(angles[1].value)
