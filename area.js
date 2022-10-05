@@ -12,5 +12,10 @@ function heron(a,b,c){
 return parseFloat(area).toFixed(4)
     }
 function calcArea(){
+    if(((Number(sides[0].value))&&Number(sides[1].value)&&Number(sides[2].value))>0){
     output.innerText=heron((Number(sides[0].value)),Number(sides[1].value),Number(sides[2].value)) +" units"
+}
+else{
+alert("Please enter Proper Input!")
+}
 }
